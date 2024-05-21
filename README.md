@@ -41,4 +41,4 @@ Para linux hay que seguir los mismos pasos, las unicas diferencias son:
 - las rutas son diferentes (no mucho)
 - vncviewer se puede instalar mediante consola (sudo apt...)
 - el fichero passwd se tiene que colocar en `$HOME/.vnc/passwd` (o se cambia en el script)
-- el script a descargar es el otro [hermes.sh](hermes.sh)]
+- el script a descargar es el otro [hermes.sh](hermes.sh)
