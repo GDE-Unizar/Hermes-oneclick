@@ -19,7 +19,7 @@ Apartado B: descargar tigervnc, es un programa que hace lo mismo que el vncviewe
 
 
 Apartado C: script. Me costó horrores hasta que conseguí hacerlo funcionar, puedes intentar entenderlo pero es complejo.
-1) Descarga el script del repo [hermes.bat](hermes.bat?raw=1) en la misma carpeta que el ejecutable del tiger
+1) Descarga el script del repo [hermes.bat](hermes.bat) en la misma carpeta que el ejecutable del tiger
 
 
 Apartado D: vcn automático. Ya que hemos automatizado el inicio en hermes, hagamos lo mismo con vnc, no?
@@ -41,4 +41,4 @@ Para linux hay que seguir los mismos pasos, las unicas diferencias son:
 - las rutas son diferentes (no mucho)
 - vncviewer se puede instalar mediante consola (sudo apt...)
 - el fichero passwd se tiene que colocar en `$HOME/.vnc/passwd` (o se cambia en el script)
-- el script a descargar es el otro [hermes.sh](hermes.sh?raw=1)]
+- el script a descargar es el otro [hermes.sh](hermes.sh)]
