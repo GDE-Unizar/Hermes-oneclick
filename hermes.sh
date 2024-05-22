@@ -38,4 +38,4 @@ echo "========== Closed SSH =========="
 
 URL=$(echo "$OUTPUT" | tail -n1)
 echo "Connecting to url $URL"
-vncviewer -FullScreen -FullscreenSystemKeys -FullScreenMode Selected -FullScreenSelectedMonitors 2 -passwordfile $HOME/.vnc/passwd $URL
+vncviewer -FullScreen -passwordfile -DotWhenNoCursor $HOME/.vnc/passwd $URL
