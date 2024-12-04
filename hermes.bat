@@ -44,7 +44,7 @@ for /f %%i in ('ssh hermes.cps.unizar.es "printf %COMMAND% | bash -i"') do (
 Set RESULT=%RESULT::=::%
 
 echo Opening...
-start /b vncviewer64-1.12.0.exe -FullScreen -DotWhenNoCursor -PasswordFile passwd %RESULT%
+start /b vncviewer64.exe -FullScreen -DotWhenNoCursor -PasswordFile passwd %RESULT%
 echo ...done
 
 Set RESULT=
